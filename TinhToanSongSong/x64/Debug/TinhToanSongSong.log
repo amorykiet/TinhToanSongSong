@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(43,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TinhToanSongSong.vcxproj -> D:\Learning Project\Parallel Programming\TinhToanSongSong\x64\Debug\TinhToanSongSong.exe
