@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\output_omp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|solutionrelative:output_omp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|solutionrelative:output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E179836A-49E2-4E60-BD64-4F6484609F44}|TinhToanSongSong.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "output_omp.txt",
               "DocumentMoniker": "D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\output_omp.txt",
               "RelativeDocumentMoniker": "output_omp.txt",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "output_omp.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-09T12:56:18.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:56:18.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "output.txt",
               "DocumentMoniker": "D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\output.txt",
               "RelativeDocumentMoniker": "output.txt",
@@ -51,18 +50,17 @@
               "RelativeToolTip": "output.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-09T11:36:37.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:36:37.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "input.txt",
               "DocumentMoniker": "D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\input.txt",
               "RelativeDocumentMoniker": "input.txt",
               "ToolTip": "D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\input.txt",
               "RelativeToolTip": "input.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOgDAAAzDwAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-12-09T11:31:58.428Z",
               "EditorCaption": ""
@@ -75,7 +73,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\Learning Project\\Parallel Programming\\TinhToanSongSong\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAACgzMzMzIwgwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-21T06:07:12.745Z",
               "EditorCaption": ""

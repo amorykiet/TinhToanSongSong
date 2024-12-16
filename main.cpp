@@ -46,7 +46,7 @@ void encodeMatrixToFileWithParallel(const vector<vector<int>>& matrix, const str
     // Song song hóa việc mã hóa từng hàng của mảng
     #pragma omp parallel num_threads(num_of_threads)
     {
-        #pragma omp for
+        #pragma omp for collapse(2)
         for (int i = 0; i < n; i++) {
             string row;
             for (int j = 0; j < n; j++) {
@@ -73,6 +73,32 @@ void encodeMatrixToFileWithParallel(const vector<vector<int>>& matrix, const str
 
     outFile.close();
 }
+
+void generateInputFile(const string& filename, int size) {
+    ofstream outFile(filename);
+
+    if (!outFile) {
+        cout << "Không thể mở tệp để ghi." << endl;
+        return;
+    }
+
+    // Ghi kích thước ma trận vào tệp
+    outFile << size << endl;
+
+    // Tạo ma trận kích thước size*size với các giá trị ngẫu nhiên
+    srand(time(0)); // Khởi tạo seed ngẫu nhiên
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            int randomValue = rand() % 1000 + 1; // Giá trị ngẫu nhiên từ 1 đến 1000
+            outFile << randomValue << " ";
+        }
+        outFile << endl; // Xuống dòng sau mỗi hàng
+    }
+
+    outFile.close();
+    cout << "file " << filename << " created!" << endl;
+}
+
 
 vector<vector<int>> readMatrixFromFile(const string& filename) {
     ifstream inFile(filename);
@@ -102,7 +128,14 @@ int main() {
     const string inputFilename = "input.txt";
     const string outputFilename = "output.txt";
     const string outputFilenameOmp = "output_omp.txt";
+    int n = 0;
 
+    cout << "Matrix's size: ";
+    cin >> n;
+
+
+    // Tạo mảng ngẫn nhiên vào tệp input.txt
+    generateInputFile(inputFilename, n);
 
     // Đọc mảng từ tệp input.txt
     vector<vector<int>> matrix = readMatrixFromFile(inputFilename);

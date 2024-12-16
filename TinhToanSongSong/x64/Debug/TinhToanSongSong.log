@@ -1,3 +1,9 @@
 ﻿  main.cpp
 D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(43,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(49,21): warning C4849: OpenMP 'collapse' clause ignored in 'for' directive
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(81,17): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(81,17): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(81,17): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(81,17): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\Learning Project\Parallel Programming\TinhToanSongSong\main.cpp(89,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   TinhToanSongSong.vcxproj -> D:\Learning Project\Parallel Programming\TinhToanSongSong\x64\Debug\TinhToanSongSong.exe
